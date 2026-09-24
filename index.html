@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VAX — Thumbnail Designer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise"></div>
+
+<header class="nav">
+  <a href="#top" class="nav__mark"><img src="logo.png" alt="VAX" class="nav__logo"></a>
+  <nav class="nav__links">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ahmedsagstdm123@gmail.com" target="_blank" rel="noopener" class="nav__cta">Hire me</a>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <svg class="hero__rays" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <g stroke="#ffffff" stroke-opacity="0.04">
+        <line x1="500" y1="500" x2="500" y2="-400"/>
+        <line x1="500" y1="500" x2="900" y2="-300"/>
+        <line x1="500" y1="500" x2="1300" y2="100"/>
+        <line x1="500" y1="500" x2="1300" y2="900"/>
+        <line x1="500" y1="500" x2="900" y2="1300"/>
+        <line x1="500" y1="500" x2="500" y2="1400"/>
+        <line x1="500" y1="500" x2="100" y2="1300"/>
+        <line x1="500" y1="500" x2="-300" y2="900"/>
+        <line x1="500" y1="500" x2="-300" y2="100"/>
+        <line x1="500" y1="500" x2="100" y2="-300"/>
+      </g>
+    </svg>
+
+    <div class="hero__inner">
+      <p class="hero__kicker">Thumbnail design for gaming &amp; Minecraft creators</p>
+      <h1 class="hero__title">
+        <span class="glitch" data-text="Thumbnails">Thumbnails</span>
+        <span class="hero__title-line2">people can't scroll past.</span>
+      </h1>
+      <p class="hero__sub">I'm VAX — I build high-impact, high-CTR thumbnails for Minecraft and gaming channels, in Arabic and English, with a fast turnaround built for upload day.</p>
+      <div class="hero__actions">
+        <a href="#work" class="btn btn--primary">See the work</a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ahmedsagstdm123@gmail.com" target="_blank" rel="noopener" class="btn btn--ghost">Message for pricing</a>
+      </div>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- WORK -->
+  <section class="work" id="work">
+    <div class="section-head">
+      <h2>Some of my work</h2>
+      <p>My thumbnails from recent projects.</p>
+    </div>
+
+    <div class="showcase">
+      <div class="showcase__viewport">
+        <div class="showcase__track" id="showcaseTrack">
+          <button class="showcase__slide" data-full="thumb6.png">
+            <img src="thumb6.png" alt="DragonCraft server thumbnail with a lineup of Minecraft skins" loading="lazy">
+          </button>
+          <button class="showcase__slide" data-full="thumb1.png">
+            <img src="thumb1.png" alt="Player facing the Ender Dragon thumbnail" loading="lazy">
+          </button>
+          <button class="showcase__slide" data-full="thumb9.png">
+            <img src="thumb9.png" alt="Diamond-armored player battle thumbnail" loading="lazy">
+          </button>
+          <button class="showcase__slide" data-full="thumb5.png">
+            <img src="thumb5.png" alt="Warden-themed thumbnail with cyan glow and Arabic title" loading="lazy">
+          </button>
+          <button class="showcase__slide" data-full="thumb7.png">
+            <img src="thumb7.png" alt="Hardcore mode Minecraft thumbnail with red type" loading="lazy">
+          </button>
+          <button class="showcase__slide" data-full="thumb2.png">
+            <img src="thumb2.png" alt="Group of four Minecraft skins with enchanted weapons" loading="lazy">
+          </button>
+          <button class="showcase__slide" data-full="thumb8.png">
+            <img src="thumb8.png" alt="2025 year-in-review Minecraft thumbnail" loading="lazy">
+          </button>
+          <button class="showcase__slide" data-full="thumb3.png">
+            <img src="thumb3.png" alt="Arabic YouTube thumbnail with a Steam skin and play button" loading="lazy">
+          </button>
+          <button class="showcase__slide" data-full="thumb4.png">
+            <img src="thumb4.png" alt="Minecraft End Update reaction thumbnail with Arabic text" loading="lazy">
+          </button>
+        </div>
+      </div>
+
+      <div class="showcase__controls">
+        <button class="showcase__arrow" id="prevSlide" aria-label="Previous thumbnail">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="showcase__dots" id="showcaseDots"></div>
+        <button class="showcase__arrow" id="nextSlide" aria-label="Next thumbnail">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <span class="about__bg-mark" aria-hidden="true">VAX</span>
+    <div class="about__copy">
+      <p class="about__kicker">A closer look</p>
+      <h2>About me</h2>
+      <p>Hi, I’m a Minecraft thumbnail designer with over 5 years of experience creating eye-catching, high-conversion thumbnails for YouTube and social media. I specialize in making bright, detailed, and engaging visuals that help your content stand out and get more clicks. I focus on quality, creativity, and fast delivery.</p>
+      <ul class="about__list">
+        <li><span class="about__list-dot"></span>Minecraft &amp; gaming specialist</li>
+        <li><span class="about__list-dot"></span>Arabic and English lettering</li>
+        <li><span class="about__list-dot"></span>Fast turnaround, revisions included</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="section-head">
+      <h2>What I offer</h2>
+      <p>Tell me about your channel and what the video needs.</p>
+    </div>
+
+    <div class="services__grid">
+      <article class="service">
+        <span class="service__mark"></span>
+        <h3>Custom thumbnails</h3>
+        <p>One-off or per-video thumbnails built around your footage, your title, and what makes the video worth clicking.</p>
+      </article>
+      <article class="service">
+        <span class="service__mark"></span>
+        <h3>Channel branding</h3>
+        <p>A consistent look across your uploads — recurring colors, type, and composition so your channel is recognizable at a glance.</p>
+      </article>
+      <article class="service">
+        <span class="service__mark"></span>
+        <h3>Series &amp; packs</h3>
+        <p>Matching thumbnail sets for a series, a hardcore run, or a season — designed together so they read as one story.</p>
+      </article>
+      <article class="service">
+        <span class="service__mark"></span>
+        <h3>Rush requests</h3>
+        <p>Uploading soon and need something fast? Message me directly and I'll let you know the quickest turnaround I can offer.</p>
+      </article>
+    </div>
+
+    <div class="pricing">
+      <div class="pricing__intro">
+        <span class="pricing__eyebrow-mark"></span>
+        <p>Starting rates for standard thumbnails</p>
+      </div>
+      <div class="pricing__row">
+        <div class="pricing__tier">
+          <span class="pricing__amount">$5</span>
+          <div class="pricing__tier-text">
+            <span class="pricing__label">1 thumbnail</span>
+            <span class="pricing__note">2 revisions included</span>
+          </div>
+        </div>
+        <div class="pricing__divider" aria-hidden="true"></div>
+        <div class="pricing__tier">
+          <span class="pricing__amount">$8</span>
+          <div class="pricing__tier-text">
+            <span class="pricing__label">2 thumbnails</span>
+            <span class="pricing__note">5 revisions included</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="services__cta">
+      <p>Need more than two, a series pack, or full channel branding? Message me and I'll get back to you with a quote.</p>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ahmedsagstdm123@gmail.com" target="_blank" rel="noopener" class="btn btn--primary">Message me for pricing</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- CONTACT / FOOTER -->
+<footer class="contact" id="contact">
+  <div class="contact__inner">
+    <h2>Let's make your next thumbnail.</h2>
+    <p>Fastest way to reach me is Discord — drop your channel, your youtube video idea, and what you need.</p>
+
+    <div class="contact__links">
+      <a href="https://discord.gg/EQ95v6Yxwx" target="_blank" rel="noopener" class="contact__link contact__link--discord">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.317 4.369a19.8 19.8 0 0 0-4.885-1.515.07.07 0 0 0-.075.035c-.21.375-.444.864-.608 1.25a18.3 18.3 0 0 0-5.487 0 12.6 12.6 0 0 0-.617-1.25.077.077 0 0 0-.075-.035A19.7 19.7 0 0 0 3.68 4.369a.07.07 0 0 0-.032.027C.533 9.045-.32 13.58.099 18.057a.082.082 0 0 0 .031.056 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.1 13.1 0 0 1-1.872-.892.077.077 0 0 1-.008-.128q.19-.142.365-.29a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01q.176.148.365.29a.077.077 0 0 1-.006.128 12.3 12.3 0 0 1-1.873.892.076.076 0 0 0-.04.107c.36.698.772 1.362 1.225 1.993a.077.077 0 0 0 .084.028 19.84 19.84 0 0 0 6.002-3.03.077.077 0 0 0 .032-.055c.5-5.177-.838-9.674-3.549-13.66a.06.06 0 0 0-.031-.028M8.02 15.331c-1.183 0-2.157-1.086-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.211 0 2.176 1.096 2.157 2.42 0 1.332-.955 2.418-2.157 2.418m7.974 0c-1.183 0-2.157-1.086-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.211 0 2.176 1.096 2.157 2.42 0 1.332-.946 2.418-2.157 2.418"/></svg>
+        <span>Discord</span>
+      </a>
+      <a href="https://www.fiverr.com/vax555" target="_blank" rel="noopener" class="contact__link contact__link--fiverr">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.004 8.686h-4.42V8.36c0-1.19.417-1.64 1.487-1.64h.61V3.005l-.32-.05a10 10 0 0 0-1.578-.108c-2.815 0-4.298 1.686-4.298 4.877v.962H12.06v3.72h2.425V21h4.1v-8.594h2.983zm-14.213.037h4.117V21H8.79zM8.79 3h4.117v3.706H8.79zM0 12.406h2.335V8.723H0zm5.812-3.683h-.004a2 2 0 0 1-.203-.011h-.002a2 2 0 0 1-.19-.026h-.001a2 2 0 0 1-.185-.041 1 1 0 0 1-.09-.028l-.087-.028-.016-.006v9.704a1.71 1.71 0 0 1-1.905 1.906H2.335v3.399H3.13c3.198 0 5.663-1.482 5.663-5.408v-9.51z"/></svg>
+        <span>Fiverr</span>
+      </a>
+      <a href="https://www.youtube.com/@VAX" target="_blank" rel="noopener" class="contact__link contact__link--youtube">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a2.99 2.99 0 0 0-2.106-2.115C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.392.526A2.99 2.99 0 0 0 .502 6.186 31.3 31.3 0 0 0 0 12a31.3 31.3 0 0 0 .502 5.814 2.99 2.99 0 0 0 2.106 2.115c1.887.526 9.392.526 9.392.526s7.505 0 9.392-.526a2.99 2.99 0 0 0 2.106-2.115A31.3 31.3 0 0 0 24 12a31.3 31.3 0 0 0-.502-5.814M9.6 15.6V8.4l6.264 3.6z"/></svg>
+        <span>YouTube</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="contact__base">
+    <img src="images/logo.png" alt="VAX" class="contact__logo">
+    <span>Designed &amp; built by VAX</span>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox__close" id="lightboxClose" aria-label="Close">&times;</button>
+  <img src="" alt="" id="lightboxImg">
+</div>
+
+<script>
+  /* ---------- lightbox ---------- */
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightboxImg');
+  const lightboxClose = document.getElementById('lightboxClose');
+
+  function openLightbox(item) {
+    lightboxImg.src = item.dataset.full;
+    lightboxImg.alt = item.querySelector('img').alt;
+    lightbox.classList.add('is-open');
+    document.body.classList.add('no-scroll');
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('is-open');
+    document.body.classList.remove('no-scroll');
+  }
+
+  lightboxClose.addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) closeLightbox();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+
+  /* ---------- showcase carousel (real loop, no cloned/repeated slides) ----------
+     Only 9 slide elements exist — the same 9 the page was built with, nothing
+     duplicated. The active (bigger) slide is always kept one slot in from the
+     front of the row, so a real slide is always peeking on each side of it —
+     never a clone. Looping is done by physically moving the real slide that
+     just scrolled fully out of view to the other end of the row, then
+     snapping the transform back with no transition. That reflow cancels the
+     move out pixel-for-pixel, so nothing visibly jumps. */
+  const track = document.getElementById('showcaseTrack');
+  const viewport = track.parentElement; // .showcase__viewport
+  let order = Array.from(track.children); // the 9 real slides, current on-screen order
+  const dotsWrap = document.getElementById('showcaseDots');
+  const prevBtn = document.getElementById('prevSlide');
+  const nextBtn = document.getElementById('nextSlide');
+  const ACTIVE_SLOT = 1; // index within `order` that is always the centered/active slide
+  let autoplayTimer;
+  let animating = false;
+
+  order.forEach((slide, i) => {
+    slide.dataset.originalIndex = i; // permanent id for this image, follows it when it moves
+
+    const dot = document.createElement('button');
+    dot.className = 'showcase__dot';
+    dot.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+    dot.addEventListener('click', () => { goToOriginal(i); resetAutoplay(); });
+    dotsWrap.appendChild(dot);
+  });
+  const dots = Array.from(dotsWrap.children);
+
+  // clicks are bound once per real element and simply follow it around as it moves
+  order.forEach((slide) => slide.addEventListener('click', () => openLightbox(slide)));
+
+  function slideStepPx() {
+    // spacing between adjacent slots — unaffected by the viewport's own
+    // padding, so plain width + gap is exact here
+    const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+    return order[0].getBoundingClientRect().width + gap;
+  }
+
+  function currentTx() {
+    const t = getComputedStyle(track).transform;
+    if (!t || t === 'none') return 0;
+    const m = t.match(/matrix\(([^)]+)\)/);
+    return m ? parseFloat(m[1].split(',')[4]) : 0;
+  }
+
+  // measures the ACTUAL rendered position of the viewport and the active
+  // slide and returns the exact transform that centers the active slide —
+  // this can't drift out of alignment with the viewport's own padding,
+  // border, or box model the way a hand-computed offset can.
+  function centerTx() {
+    const vp = viewport.getBoundingClientRect();
+    const active = order[ACTIVE_SLOT].getBoundingClientRect();
+    const vpCenter = vp.left + vp.width / 2;
+    const activeCenter = active.left + active.width / 2;
+    return currentTx() + (vpCenter - activeCenter);
+  }
+
+  function settle() {
+    track.style.transition = 'none';
+    track.style.transform = `translateX(${centerTx()}px)`;
+    void track.offsetWidth;
+  }
+
+  function updateUI() {
+    const activeIndex = Number(order[ACTIVE_SLOT].dataset.originalIndex);
+    dots.forEach((d, i) => d.classList.toggle('is-active', i === activeIndex));
+    order.forEach((s, i) => s.classList.toggle('is-active', i === ACTIVE_SLOT));
+  }
+
+  // direction: +1 to advance, -1 to go back. Both are the same move, mirrored:
+  // rotate the real slide into place first, instantly compensate the position
+  // so nothing jumps, then animate that compensation away — that animation
+  // is what the user sees as the slide-in. `updateUI()` flips the is-active
+  // class right when the move starts, so the scale-up grows in step with the
+  // slide motion instead of popping late.
+  function step(direction) {
+    if (animating) return;
+    animating = true;
+    if (direction === 1) {
+      const first = order.shift();
+      order.push(first);
+      track.appendChild(first);
+    } else {
+      const last = order.pop();
+      order.unshift(last);
+      track.insertBefore(last, track.firstChild);
+    }
+    updateUI();
+    const jumpTx = currentTx() + direction * slideStepPx();
+    track.style.transition = 'none';
+    track.style.transform = `translateX(${jumpTx}px)`;
+    void track.offsetWidth; // force the jump above to apply before animating
+    requestAnimationFrame(() => {
+      track.style.transition = 'transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1)';
+      track.style.transform = `translateX(${centerTx()}px)`; // exact, measured live
+    });
+  }
+
+  function stepNext() { step(1); }
+  function stepPrev() { step(-1); }
+
+  track.addEventListener('transitionend', (e) => {
+    if (e.propertyName !== 'transform' || e.target !== track) return;
+    animating = false;
+  });
+
+  function goToOriginal(targetIndex) {
+    if (animating) return;
+    const pos = order.findIndex((s) => Number(s.dataset.originalIndex) === targetIndex);
+    const rotateBy = ((pos - ACTIVE_SLOT) % order.length + order.length) % order.length;
+    if (rotateBy === 0) return;
+    // jump straight there by rotating the real slides into place — still no clones
+    order = order.slice(rotateBy).concat(order.slice(0, rotateBy));
+    order.forEach((slide) => track.appendChild(slide));
+    settle();
+    updateUI();
+  }
+
+  prevBtn.addEventListener('click', () => { stepPrev(); resetAutoplay(); });
+  nextBtn.addEventListener('click', () => { stepNext(); resetAutoplay(); });
+
+  window.addEventListener('resize', () => { if (!animating) settle(); });
+
+  function startAutoplay() {
+    clearInterval(autoplayTimer);
+    autoplayTimer = setInterval(stepNext, 3800);
+  }
+  function resetAutoplay() {
+    clearInterval(autoplayTimer);
+    startAutoplay();
+  }
+  track.addEventListener('mouseenter', () => clearInterval(autoplayTimer));
+  track.addEventListener('mouseleave', startAutoplay);
+  track.addEventListener('touchstart', () => clearInterval(autoplayTimer), { passive: true });
+
+  const showcaseSection = document.querySelector('.showcase');
+  const visibilityIO = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        startAutoplay();
+      } else {
+        clearInterval(autoplayTimer);
+      }
+    });
+  }, { threshold: 0.3 });
+  visibilityIO.observe(showcaseSection);
+
+  // arrange so the first slide (thumb6) starts active, matching the original design
+  goToOriginal(0);
+  updateUI();
+
+  /* ---------- nav shrink on scroll ---------- */
+  const nav = document.querySelector('.nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('is-scrolled', window.scrollY > 40);
+  }, { passive: true });
+
+  /* ---------- scroll-reveal ---------- */
+  const revealTargets = document.querySelectorAll('.section-head, .service, .about__copy, .contact__inner, .showcase');
+  revealTargets.forEach((el) => el.classList.add('reveal'));
+
+  const revealIO = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        revealIO.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealTargets.forEach((el) => revealIO.observe(el));
+
+  /* ---------- hero parallax ---------- */
+  const rays = document.querySelector('.hero__rays');
+  const heroInner = document.querySelector('.hero__inner');
+  window.addEventListener('scroll', () => {
+    const y = window.scrollY;
+    if (rays) rays.style.transform = 'translateY(' + y * 0.12 + 'px) rotate(' + y * 0.02 + 'deg)';
+    if (heroInner) heroInner.style.transform = 'translateY(' + Math.min(y * 0.18, 80) + 'px)';
+  }, { passive: true });
+</script>
+
+</body>
+</html>
