@@ -22,6 +22,15 @@
 
 * { box-sizing: border-box; }
 
+button {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+  font: inherit;
+  color: inherit;
+}
+
 html { scroll-behavior: smooth; }
 
 body {
